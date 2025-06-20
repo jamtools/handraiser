@@ -14,186 +14,6 @@ importers:
       '@springboardjs/plugin-svelte':
         specifier: 0.16.0-svelte-dev2
         version: 0.16.0-svelte-dev2(@jamtools/core@0.16.0-svelte-dev2(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7))(esbuild@0.25.5)(react@19.1.0)(springboard@0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)(typescript@5.8.3)
-      adsr:
-        specifier: ^1.0.1
-        version: 1.0.1
-      ansi-regex:
-        specifier: ^5.0.1
-        version: 5.0.1
-      ansi-styles:
-        specifier: ^4.3.0
-        version: 4.3.0
-      array-flatten:
-        specifier: ^3.0.0
-        version: 3.0.0
-      audio-loader:
-        specifier: ^0.5.0
-        version: 0.5.0
-      base64-js:
-        specifier: ^1.5.1
-        version: 1.5.1
-      better-sqlite3:
-        specifier: ^11.10.0
-        version: 11.10.0
-      bindings:
-        specifier: ^1.5.0
-        version: 1.5.0
-      bl:
-        specifier: ^4.1.0
-        version: 4.1.0
-      buffer:
-        specifier: ^5.7.1
-        version: 5.7.1
-      chalk:
-        specifier: ^4.1.2
-        version: 4.1.2
-      chownr:
-        specifier: ^1.1.4
-        version: 1.1.4
-      cliui:
-        specifier: ^8.0.1
-        version: 8.0.1
-      color-convert:
-        specifier: ^2.0.1
-        version: 2.0.1
-      color-name:
-        specifier: ^1.1.4
-        version: 1.1.4
-      commander:
-        specifier: ^12.1.0
-        version: 12.1.0
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
-      csstype:
-        specifier: ^3.1.3
-        version: 3.1.3
-      decompress-response:
-        specifier: ^6.0.0
-        version: 6.0.0
-      deep-extend:
-        specifier: ^0.6.0
-        version: 0.6.0
-      detect-libc:
-        specifier: ^2.0.4
-        version: 2.0.4
-      dexie:
-        specifier: ^4.0.11
-        version: 4.0.11
-      djipevents:
-        specifier: ^2.0.7
-        version: 2.0.7
-      easymidi:
-        specifier: ^3.1.0
-        version: 3.1.0
-      emoji-regex:
-        specifier: ^8.0.0
-        version: 8.0.0
-      end-of-stream:
-        specifier: ^1.4.5
-        version: 1.4.5
-      esbuild:
-        specifier: ^0.25.5
-        version: 0.25.5
-      escalade:
-        specifier: ^3.2.0
-        version: 3.2.0
-      expand-template:
-        specifier: ^2.0.3
-        version: 2.0.3
-      file-uri-to-path:
-        specifier: ^1.0.0
-        version: 1.0.0
-      fs-constants:
-        specifier: ^1.0.0
-        version: 1.0.0
-      get-caller-file:
-        specifier: ^2.0.5
-        version: 2.0.5
-      github-from-package:
-        specifier: ^0.0.0
-        version: 0.0.0
-      has-flag:
-        specifier: ^4.0.0
-        version: 4.0.0
-      hono:
-        specifier: ^4.8.1
-        version: 4.8.1
-      ieee754:
-        specifier: ^1.2.1
-        version: 1.2.1
-      immer:
-        specifier: ^10.1.1
-        version: 10.1.1
-      inherits:
-        specifier: ^2.0.4
-        version: 2.0.4
-      ini:
-        specifier: ^1.3.8
-        version: 1.3.8
-      is-fullwidth-code-point:
-        specifier: ^3.0.0
-        version: 3.0.0
-      isomorphic-ws:
-        specifier: ^4.0.1
-        version: 4.0.1(ws@8.18.2)
-      jazz-midi:
-        specifier: ^1.7.9
-        version: 1.7.9
-      json-rpc-2.0:
-        specifier: ^1.7.0
-        version: 1.7.0
-      jzz:
-        specifier: ^1.9.3
-        version: 1.9.3
-      kysely:
-        specifier: ^0.28.2
-        version: 0.28.2
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
-      midi-file:
-        specifier: ^1.2.4
-        version: 1.2.4
-      midimessage:
-        specifier: ^1.0.5
-        version: 1.0.5
-      mimic-response:
-        specifier: ^3.1.0
-        version: 3.1.0
-      minimist:
-        specifier: ^1.2.8
-        version: 1.2.8
-      mkdirp-classic:
-        specifier: ^0.5.3
-        version: 0.5.3
-      napi-build-utils:
-        specifier: ^2.0.0
-        version: 2.0.0
-      node-abi:
-        specifier: ^3.75.0
-        version: 3.75.0
-      node-addon-api:
-        specifier: ^6.1.0
-        version: 6.1.0
-      note-parser:
-        specifier: ^1.1.0
-        version: 1.1.0
-      once:
-        specifier: ^1.4.0
-        version: 1.4.0
-      pkg-prebuilds:
-        specifier: ^1.0.0
-        version: 1.0.0
-      prebuild-install:
-        specifier: ^7.1.3
-        version: 7.1.3
-      pump:
-        specifier: ^3.0.3
-        version: 3.0.3
-      rc:
-        specifier: ^1.2.8
-        version: 1.2.8
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -206,42 +26,6 @@ importers:
       react-router-dom:
         specifier: ^6.30.1
         version: 6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      readable-stream:
-        specifier: ^3.6.2
-        version: 3.6.2
-      reconnecting-websocket:
-        specifier: ^4.4.0
-        version: 4.4.0
-      require-directory:
-        specifier: ^2.1.1
-        version: 2.1.1
-      rxjs:
-        specifier: ^7.8.2
-        version: 7.8.2
-      safe-buffer:
-        specifier: ^5.2.1
-        version: 5.2.1
-      sample-player:
-        specifier: ^0.5.5
-        version: 0.5.5
-      scheduler:
-        specifier: ^0.26.0
-        version: 0.26.0
-      semver:
-        specifier: ^7.7.2
-        version: 7.7.2
-      shell-quote:
-        specifier: ^1.8.3
-        version: 1.8.3
-      simple-concat:
-        specifier: ^1.0.1
-        version: 1.0.1
-      simple-get:
-        specifier: ^4.0.1
-        version: 4.0.1
-      soundfont-player:
-        specifier: ^0.12.0
-        version: 0.12.0
       springboard:
         specifier: 0.16.0-svelte-dev2
         version: 0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
@@ -251,69 +35,9 @@ importers:
       springboard-server:
         specifier: ^0.16.0-svelte-dev2
         version: 0.16.0-svelte-dev2(@springboardjs/data-storage@0.16.0-svelte-dev2(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(@trpc/server@10.45.2)(hono@4.8.1)(springboard@0.16.0-svelte-dev2(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
-      string-width:
-        specifier: ^4.2.3
-        version: 4.2.3
-      string_decoder:
-        specifier: ^1.3.0
-        version: 1.3.0
-      strip-ansi:
-        specifier: ^6.0.1
-        version: 6.0.1
-      strip-json-comments:
-        specifier: ^2.0.1
-        version: 2.0.1
-      supports-color:
-        specifier: ^7.2.0
-        version: 7.2.0
       svelte:
         specifier: ^5.34.7
         version: 5.34.7
-      tar-fs:
-        specifier: ^2.1.3
-        version: 2.1.3
-      tar-stream:
-        specifier: ^2.2.0
-        version: 2.2.0
-      tree-kill:
-        specifier: ^1.2.2
-        version: 1.2.2
-      tslib:
-        specifier: ^2.8.1
-        version: 2.8.1
-      tunnel-agent:
-        specifier: ^0.6.0
-        version: 0.6.0
-      undici-types:
-        specifier: ^7.8.0
-        version: 7.8.0
-      util-deprecate:
-        specifier: ^1.0.2
-        version: 1.0.2
-      webmidi:
-        specifier: ^3.1.12
-        version: 3.1.12
-      wrap-ansi:
-        specifier: ^7.0.0
-        version: 7.0.0
-      wrappy:
-        specifier: ^1.0.2
-        version: 1.0.2
-      ws:
-        specifier: ^8.18.2
-        version: 8.18.2
-      y18n:
-        specifier: ^5.0.8
-        version: 5.0.8
-      yargs:
-        specifier: ^17.7.2
-        version: 17.7.2
-      yargs-parser:
-        specifier: ^21.1.1
-        version: 21.1.1
-      zod:
-        specifier: ^3.25.67
-        version: 3.25.67
     devDependencies:
       '@types/node':
         specifier: ^24.0.3
@@ -1292,7 +1016,8 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@types/webmidi@2.1.0': {}
+  '@types/webmidi@2.1.0':
+    optional: true
 
   acorn@8.15.0: {}
 
@@ -1467,7 +1192,8 @@ snapshots:
     dependencies:
       ws: 8.18.2
 
-  jazz-midi@1.7.9: {}
+  jazz-midi@1.7.9:
+    optional: true
 
   json-rpc-2.0@1.7.0: {}
 
@@ -1475,6 +1201,7 @@ snapshots:
     dependencies:
       '@types/webmidi': 2.1.0
       jazz-midi: 1.7.9
+    optional: true
 
   kysely@0.28.2: {}
 
