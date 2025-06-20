@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@jamtools/core": "0.16.0-svelte-dev2",
+    "@springboardjs/plugin-svelte": "0.16.0-svelte-dev2",
     "adsr": "^1.0.1",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
@@ -89,6 +90,7 @@
     "strip-ansi": "^6.0.1",
     "strip-json-comments": "^2.0.1",
     "supports-color": "^7.2.0",
+    "svelte": "^5.34.7",
     "tar-fs": "^2.1.3",
     "tar-stream": "^2.2.0",
     "tree-kill": "^1.2.2",
@@ -106,9 +108,8 @@
     "zod": "^3.25.67"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sb dev src/index.tsx",
-    "build": "sb build src/index.tsx",
+    "dev": "npm run build -- --watch",
+    "build": "tsx build_with_svelte_plugin.mjs",
     "start": "sb start"
   },
   "keywords": [],
