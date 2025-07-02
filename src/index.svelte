@@ -1,4 +1,6 @@
-<script module lang="ts">
+<script module lang='ts'>
+    import './index.css';
+
     import springboard from 'springboard';
 
     import { getSelf } from './import_self';
@@ -14,47 +16,10 @@
         }
     }
 
-    const createResources = async (moduleAPI: ModuleAPI) => {
-        const states = await moduleAPI.createStates({
-            count: 0,
-            name: "",
-        });
-
-        const actions = moduleAPI.createActions({
-            increment: async (args: object): Promise<void> => {
-                states.count.setState((value) => {
-                    return value + 1;
-                });
-            },
-            setName: async (args: { name: string }): Promise<void> => {
-                states.name.setState(args.name);
-            },
-        });
-
-        const macros = await moduleAPI.getModule('macro').createMacros(moduleAPI, {
-            slider1: {
-                type: 'midi_control_change_input',
-                config: {
-                    onTrigger: async (midiEvent) => {
-                        actions.increment({});
-                    },
-                },
-            },
-            slider2: {
-                type: 'midi_control_change_input',
-                config: {},
-            },
-        });
-
-        return {
-            states,
-            actions,
-            macros,
-        };
-    };
-
     springboard.registerModule('Main', {}, async (app) => {
-        const props = {app};
+        app.getModule('macro').setLocalMode(true);
+
+        const props = { app };
         app.registerRoute('/', {}, function () {
             const self = getSelf();
             return createSvelteReactElement(self, props);
@@ -62,35 +27,72 @@
 
         return createResources(app);
     });
+
+    const createResources = async (moduleAPI: ModuleAPI) => {
+        const states = await moduleAPI.createStates({
+            handPositions: [0, 0],
+        });
+
+        const actions = moduleAPI.createActions({
+            changeHandPosition: async (args: {
+                index: number;
+                value: number;
+            }) => {
+                states.handPositions.setStateImmer((positions) => {
+                    positions[args.index] = args.value;
+                });
+            },
+        });
+
+        const macros = await moduleAPI
+            .getModule('macro')
+            .createMacros(moduleAPI, {
+                slider1: {
+                    type: 'midi_control_change_input',
+                    config: {},
+                },
+                slider2: {
+                    type: 'midi_control_change_input',
+                    config: {},
+                },
+            });
+
+        return {
+            states,
+            actions,
+            macros,
+        };
+    };
 </script>
 
-<script lang="ts">
+<script lang='ts'>
     import { stateSupervisorToStore } from '@springboardjs/plugin-svelte/src/svelte_helpers';
 
-    import Edit from '@springboardjs/plugin-svelte/src/svelte_jamtools_macro_component.svelte';
+    import EditMacro from '@springboardjs/plugin-svelte/src/svelte_jamtools_macro_component.svelte';
+    import HandSlider from './HandSlider.svelte';
 
     let { app }: { app: ModuleAPI } = $props();
 
     const main = app.getModule('Main');
 
-    const count = stateSupervisorToStore(main.states.count);
-    const name = stateSupervisorToStore(main.states.name);
-
     const actions = main.actions;
-
-    async function increment() {
-        await actions.increment({});
-    }
 
     const slider1 = main.macros.slider1;
     const slider2 = main.macros.slider2;
+
+    const handPositions = stateSupervisorToStore(main.states.handPositions);
 </script>
 
-<h1>{$count}</h1>
-<button onclick={increment}>Increment</button>
+<EditMacro payload={slider1} />
+<EditMacro payload={slider2} />
 
-<p>{$name}</p>
-
-<Edit
-    payload={slider1}
-/>
+<div class='hand-raiser-main'>
+    <div class='hand-raiser-center'>
+        {#each $handPositions as position, index}
+            <HandSlider
+                position={position}
+                onPositionChange={(value) => actions.changeHandPosition({ index, value })}
+            />
+        {/each}
+    </div>
+</div>

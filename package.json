@@ -4,15 +4,15 @@
   "description": "Raise your hands",
   "main": "index.js",
   "dependencies": {
-    "@jamtools/core": "0.16.0-svelte-dev2",
-    "@springboardjs/plugin-svelte": "0.16.0-svelte-dev2",
+    "@jamtools/core": "0.16.0-svelte-dev3",
+    "@springboardjs/plugin-svelte": "0.16.0-svelte-dev3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^6.30.1",
     "react-router-dom": "^6.30.1",
-    "springboard": "0.16.0-svelte-dev2",
-    "springboard-cli": "0.16.0-svelte-dev2",
-    "springboard-server": "^0.16.0-svelte-dev2",
+    "springboard": "0.16.0-svelte-dev3",
+    "springboard-cli": "0.16.0-svelte-dev3",
+    "springboard-server": "^0.16.0-svelte-dev3",
     "svelte": "^5.34.7"
   },
   "scripts": {
