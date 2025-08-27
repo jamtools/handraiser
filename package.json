@@ -7,7 +7,8 @@
     "dev": "sb dev src/index.svelte --plugins svelte",
     "build": "sb build src/index.svelte --plugins svelte",
     "start": "sb start",
-    "build-with-script": "node build_with_script.mjs"
+    "build-with-script": "node build_with_script.mjs",
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@jamtools/core": "0.16.0",
