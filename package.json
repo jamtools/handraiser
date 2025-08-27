@@ -1,0 +1,40 @@
+{
+  "name": "handraiser-svelte",
+  "version": "1.0.0",
+  "description": "Raise your hands",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sb dev src/index.svelte --plugins svelte",
+    "build": "sb build src/index.svelte --plugins svelte",
+    "start": "sb start",
+    "build-with-script": "node build_with_script.mjs",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jamtools/core": "0.16.0",
+    "@springboardjs/platforms-browser": "0.16.0",
+    "@springboardjs/data-storage": "0.16.0",
+    "@springboardjs/platforms-node": "0.16.0",
+    "@springboardjs/plugin-svelte": "0.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^6.30.1",
+    "react-router-dom": "^6.30.1",
+    "springboard": "0.16.0",
+    "springboard-cli": "0.16.0",
+    "springboard-server": "0.16.0",
+    "svelte": "^5.34.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3"]
+  }
+}
