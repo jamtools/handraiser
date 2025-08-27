@@ -12,7 +12,7 @@ setTimeout(async () => {
         nodeModulesParentFolder: process.cwd(),
         watch,
         plugins: [
-            sveltePlugin.default,
+            sveltePlugin.default(),
         ],
     });
 
@@ -21,14 +21,14 @@ setTimeout(async () => {
         applicationEntrypoint: `${process.cwd()}/src/index.svelte`,
         nodeModulesParentFolder: process.cwd(),
         plugins: [
-            sveltePlugin.default,
+            sveltePlugin.default(),
         ],
     });
 
     await buildServer({
         watch,
         plugins: [
-            sveltePlugin.default,
+            sveltePlugin.default(),
         ],
     });
 

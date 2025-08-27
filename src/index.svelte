@@ -44,18 +44,16 @@
             },
         });
 
-        const macros = await moduleAPI
-            .getModule('macro')
-            .createMacros(moduleAPI, {
-                slider1: {
-                    type: 'midi_control_change_input',
-                    config: {},
-                },
-                slider2: {
-                    type: 'midi_control_change_input',
-                    config: {},
-                },
-            });
+        const macros = await moduleAPI.getModule('macro').createMacros(moduleAPI, {
+            slider1: {
+                type: 'midi_control_change_input',
+                config: {},
+            },
+            slider2: {
+                type: 'midi_control_change_input',
+                config: {},
+            },
+        });
 
         return {
             states,
@@ -66,10 +64,10 @@
 </script>
 
 <script lang='ts'>
-    import { stateSupervisorToStore } from '@springboardjs/plugin-svelte/src/svelte_helpers';
+    import { stateSupervisorToStore } from '@springboardjs/plugin-svelte/src/svelte_store_helpers';
 
-    import EditMacro from '@springboardjs/plugin-svelte/src/svelte_jamtools_macro_component.svelte';
     import HandSlider from './HandSlider.svelte';
+    import ReactInSvelte from '@springboardjs/plugin-svelte/src/ReactInSvelte.svelte';
 
     let { app }: { app: ModuleAPI } = $props();
 
@@ -81,10 +79,20 @@
     const slider2 = main.macros.slider2;
 
     const handPositions = stateSupervisorToStore(main.states.handPositions);
+
+    let dialog: HTMLDialogElement;
+
+    function openConfig() {
+        dialog.showModal();
+    }
 </script>
 
-<EditMacro payload={slider1} />
-<EditMacro payload={slider2} />
+<button onclick={openConfig}>Config</button>
+
+<dialog bind:this={dialog}>
+    <ReactInSvelte component={slider1.components.edit} props={{}} />
+    <button onclick={() => dialog.close()}>Close</button>
+</dialog>
 
 <div class='hand-raiser-main'>
     <div class='hand-raiser-center'>

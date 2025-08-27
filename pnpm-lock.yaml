@@ -9,11 +9,20 @@ importers:
   .:
     dependencies:
       '@jamtools/core':
-        specifier: 0.16.0-svelte-dev3
-        version: 0.16.0-svelte-dev3(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)
+        specifier: 0.16.0
+        version: 0.16.0(@springboardjs/platforms-browser@0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)
+      '@springboardjs/data-storage':
+        specifier: 0.16.0
+        version: 0.16.0(kysely@0.28.2)
+      '@springboardjs/platforms-browser':
+        specifier: 0.16.0
+        version: 0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
+      '@springboardjs/platforms-node':
+        specifier: 0.16.0
+        version: 0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)
       '@springboardjs/plugin-svelte':
-        specifier: 0.16.0-svelte-dev3
-        version: 0.16.0-svelte-dev3(@jamtools/core@0.16.0-svelte-dev3(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7))(esbuild@0.25.5)(react@19.1.0)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)(typescript@5.8.3)
+        specifier: 0.16.0
+        version: 0.16.0(esbuild@0.25.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)(typescript@5.8.3)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -27,14 +36,14 @@ importers:
         specifier: ^6.30.1
         version: 6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       springboard:
-        specifier: 0.16.0-svelte-dev3
-        version: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+        specifier: 0.16.0
+        version: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
       springboard-cli:
-        specifier: 0.16.0-svelte-dev3
-        version: 0.16.0-svelte-dev3(ioowiynfnghsyik2qbvmjtathq)
+        specifier: 0.16.0
+        version: 0.16.0(@springboardjs/platforms-browser@0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(springboard-server@0.16.0(@springboardjs/data-storage@0.16.0(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(hono@4.8.1)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
       springboard-server:
-        specifier: ^0.16.0-svelte-dev3
-        version: 0.16.0-svelte-dev3(@springboardjs/data-storage@0.16.0-svelte-dev3(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(@trpc/server@10.45.2)(hono@4.8.1)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
+        specifier: 0.16.0
+        version: 0.16.0(@springboardjs/data-storage@0.16.0(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(hono@4.8.1)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
       svelte:
         specifier: ^5.34.7
         version: 5.34.7
@@ -225,19 +234,12 @@ packages:
       '@hono/node-server': ^1.11.1
       hono: ^4.6.0
 
-  '@hono/trpc-server@0.3.4':
-    resolution: {integrity: sha512-xFOPjUPnII70FgicDzOJy1ufIoBTu8eF578zGiDOrYOrYN8CJe140s9buzuPkX+SwJRYK8LjEBHywqZtxdm8aA==}
-    engines: {node: '>=16.0.0'}
+  '@jamtools/core@0.16.0':
+    resolution: {integrity: sha512-LfQ7EcYly7m1B2UUwoLp/xkhWiJ/ID1KXw7XV/8HYEuatJ7SvbFGAy7MzOhzJPzWi9HZpyj4RcGID6akz9/nZQ==}
     peerDependencies:
-      '@trpc/server': ^10.10.0 || >11.0.0-rc
-      hono: '>=4.*'
-
-  '@jamtools/core@0.16.0-svelte-dev3':
-    resolution: {integrity: sha512-BiTrYV9NuTIt3sqfWWIUXhkD08ikG0Hnji82Eabfhr3Ai/cTrrNFi4dQ1CXQMdhQSXDEJScwFWrnmuMJWDoLVw==}
-    peerDependencies:
-      '@springboardjs/platforms-browser': 0.16.0-svelte-dev3
+      '@springboardjs/platforms-browser': 0.16.0
       '@tonejs/midi': ^2.0.0
-      springboard: 0.16.0-svelte-dev3
+      springboard: 0.16.0
       svelte: '>= 5'
     peerDependenciesMeta:
       svelte:
@@ -269,30 +271,31 @@ packages:
     resolution: {integrity: sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA==}
     engines: {node: '>=14.0.0'}
 
-  '@springboardjs/data-storage@0.16.0-svelte-dev3':
-    resolution: {integrity: sha512-VbJjlt+mwytgNtKFrcK5SRso8r5KCqLzbfTfS92SQuejG86W/vf66USJAC79TzxyQn8H00HzY3CLU6VCVYP7tw==}
+  '@springboardjs/data-storage@0.16.0':
+    resolution: {integrity: sha512-g1KLUtq6kw5BAfuxFjhAzIVR9eLQXwzMNLCRgPU/9KW5NHfL8DUVSUha7Nb7tt+1jPwtH4AIfraDIrSbrbSsBQ==}
     peerDependencies:
       kysely: '>= 0.24.0'
 
-  '@springboardjs/platforms-browser@0.16.0-svelte-dev2':
-    resolution: {integrity: sha512-Dxx9Du5N3sxQLZv0G1HkkiZPSY7hn65UHTBLTOZhF0sGIg/cS2wXTTaI/B+3XprYXlI56oZN9T9QhxY2DkAU0Q==}
+  '@springboardjs/platforms-browser@0.16.0':
+    resolution: {integrity: sha512-1XgKgdOtUX3skK6cOy30B2dG7XBDH+yBHmEhIXXc2VJ7L7f9CjuJvTatwApNdV9N1tFe3AQYX5VOpGRmVuhQZQ==}
     peerDependencies:
       react-router-dom: ^6
-      springboard: 0.16.0-svelte-dev2
+      springboard: 0.16.0
 
-  '@springboardjs/platforms-node@0.16.0-svelte-dev2':
-    resolution: {integrity: sha512-DEEznVvAHL9WhhKe4LN1XCDU06qd2q4OresJ2UsggyqlieH4Iv3fYKU5Xknk0uJuhuL1xw1xPFnB60wzzIqP2g==}
+  '@springboardjs/platforms-node@0.16.0':
+    resolution: {integrity: sha512-MZvBU0ugpW+NeR5dH93PkGKyDuJd8G2LEg4ysFug6Tgt0HKJ9DqV0AoYy2fKIwsJ+v46BhkO+YlXQlTg8criiA==}
     peerDependencies:
       isomorphic-ws: ^4.0.1
-      springboard: 0.16.0-svelte-dev2
+      springboard: 0.16.0
       ws: ^8.18.0
 
-  '@springboardjs/plugin-svelte@0.16.0-svelte-dev3':
-    resolution: {integrity: sha512-pGJZxQkvOsAN9zhQsRS4rqJlX69il7RVaHqaNDYeNFORisi6fQt1BYmOI40Z+kTIydxQBHRUGRdZO6zUTM/xpQ==}
+  '@springboardjs/plugin-svelte@0.16.0':
+    resolution: {integrity: sha512-qZ5s/qcRpJsCCTfWHHAlFT2fkjRU83yVZckPQUZn3LF5lMwXvKB5E4dLZoFDFwb10/YqC2ubqPGrda8v+ys2kQ==}
     peerDependencies:
-      '@jamtools/core': 0.16.0-svelte-dev3
       react: '*'
-      springboard: 0.16.0-svelte-dev3
+      react-dom: '*'
+      rxjs: '*'
+      springboard: 0.16.0
       svelte: '>= 5'
 
   '@sveltejs/acorn-typescript@1.0.5':
@@ -302,14 +305,6 @@ packages:
 
   '@tonejs/midi@2.0.28':
     resolution: {integrity: sha512-RII6YpInPsOZ5t3Si/20QKpNqB1lZ2OCFJSOzJxz38YdY/3zqDr3uaml4JuCWkdixuPqP1/TBnXzhQ39csyoVg==}
-
-  '@trpc/client@10.45.2':
-    resolution: {integrity: sha512-ykALM5kYWTLn1zYuUOZ2cPWlVfrXhc18HzBDyRhoPYN0jey4iQHEFSEowfnhg1RvYnrAVjNBgHNeSAXjrDbGwg==}
-    peerDependencies:
-      '@trpc/server': 10.45.2
-
-  '@trpc/server@10.45.2':
-    resolution: {integrity: sha512-wOrSThNNE4HUnuhJG6PfDRp4L2009KDVxsd+2VYH8ro6o/7/jwYZ8Uu5j+VaW+mOmc8EHerHzGcdbGNQSAUPgg==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -644,27 +639,26 @@ packages:
   soundfont-player@0.12.0:
     resolution: {integrity: sha512-8BJIsAt7h1PK3thSZDgF6zecgGhYkK74JnZO8WRZi3h34qG6H/DYlnv7cpRvL7Q9C8N6qld4Qwj7nJsX1gYjEA==}
 
-  springboard-cli@0.16.0-svelte-dev3:
-    resolution: {integrity: sha512-+SQ/neEk7QJ2fCULgCQ013+pgtOYqI4HQLPsisacEirAwpBT6mDJKFGqX1Y/SFBUNckhwwshATE7w4BGTKurxg==}
+  springboard-cli@0.16.0:
+    resolution: {integrity: sha512-WggFT3NWiReHlDJ/WbjCrXgneCPRqakma960F2UtwxKMwxqahSOHajKU2rTmMMR389FJ5X0IHzJZfqT/kl3S5Q==}
     hasBin: true
     peerDependencies:
-      '@springboardjs/platforms-browser': 0.16.0-svelte-dev3
-      '@springboardjs/platforms-node': 0.16.0-svelte-dev3
-      springboard: 0.16.0-svelte-dev3
-      springboard-server: 0.16.0-svelte-dev3
+      '@springboardjs/platforms-browser': 0.16.0
+      '@springboardjs/platforms-node': 0.16.0
+      springboard: 0.16.0
+      springboard-server: 0.16.0
 
-  springboard-server@0.16.0-svelte-dev3:
-    resolution: {integrity: sha512-K7/LnZSfTu7rqpwmrONeGtB/j0LH+dxwKB3kenV6DkQ7N3THFyknmEymuw9upmetz54Zwu/MKTh+VslifBO0sA==}
+  springboard-server@0.16.0:
+    resolution: {integrity: sha512-E2XkkZqsuD9Eih36LNRzjSQt2+q/xYR3G5ZHUf/XgjvfhOU2yIb6NoN/IkC2N7rD+B0LfssVpM04K5uCX0JIiQ==}
     peerDependencies:
-      '@springboardjs/data-storage': 0.16.0-svelte-dev3
-      '@springboardjs/platforms-node': 0.16.0-svelte-dev3
+      '@springboardjs/data-storage': 0.16.0
+      '@springboardjs/platforms-node': 0.16.0
       hono: ^4.6.7
-      springboard: 0.16.0-svelte-dev3
+      springboard: 0.16.0
 
-  springboard@0.16.0-svelte-dev3:
-    resolution: {integrity: sha512-L9RUDwh+UnVUS08vkO/v73eOp6XwwJi5qUwx/esRGN2wX+G9b4k5Mqtx6EaJOJHSNSTzj9wPNVo/+EWIuxnDSw==}
+  springboard@0.16.0:
+    resolution: {integrity: sha512-W+3Pkum1dw/RCh+q5LmhPFvUGFY9mfnFlU43JiJ+AX9IFuKG5iPG0oH8dYh0XJVZ1BxTmNnAr2r0m5a8qJeqUA==}
     peerDependencies:
-      '@trpc/client': ^10.45.2
       immer: ^10.1.1
       json-rpc-2.0: ^1.7.0
       react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -901,20 +895,15 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@hono/trpc-server@0.3.4(@trpc/server@10.45.2)(hono@4.8.1)':
+  '@jamtools/core@0.16.0(@springboardjs/platforms-browser@0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)':
     dependencies:
-      '@trpc/server': 10.45.2
-      hono: 4.8.1
-
-  '@jamtools/core@0.16.0-svelte-dev3(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)':
-    dependencies:
-      '@springboardjs/platforms-browser': 0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
+      '@springboardjs/platforms-browser': 0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
       '@tonejs/midi': 2.0.28
       easymidi: 3.1.0
       immer: 10.1.1
       midi-file: 1.2.4
       soundfont-player: 0.12.0
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
       webmidi: 3.1.12
     optionalDependencies:
       svelte: 5.34.7
@@ -943,35 +932,34 @@ snapshots:
 
   '@remix-run/router@1.23.0': {}
 
-  '@springboardjs/data-storage@0.16.0-svelte-dev3(kysely@0.28.2)':
+  '@springboardjs/data-storage@0.16.0(kysely@0.28.2)':
     dependencies:
-      '@trpc/client': 10.45.2(@trpc/server@10.45.2)
-      '@trpc/server': 10.45.2
       better-sqlite3: 11.10.0
       kysely: 0.28.2
       zod: 3.25.67
 
-  '@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))':
+  '@springboardjs/platforms-browser@0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))':
     dependencies:
       json-rpc-2.0: 1.7.0
       react-router-dom: 6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       reconnecting-websocket: 4.4.0
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
 
-  '@springboardjs/platforms-node@0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)':
+  '@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)':
     dependencies:
       isomorphic-ws: 4.0.1(ws@8.18.2)
       json-rpc-2.0: 1.7.0
       reconnecting-websocket: 4.4.0
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
       ws: 8.18.2
 
-  '@springboardjs/plugin-svelte@0.16.0-svelte-dev3(@jamtools/core@0.16.0-svelte-dev3(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7))(esbuild@0.25.5)(react@19.1.0)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)(typescript@5.8.3)':
+  '@springboardjs/plugin-svelte@0.16.0(esbuild@0.25.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)(typescript@5.8.3)':
     dependencies:
-      '@jamtools/core': 0.16.0-svelte-dev3(@springboardjs/platforms-browser@0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@tonejs/midi@2.0.28)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(svelte@5.34.7)
       esbuild-svelte: 0.9.3(esbuild@0.25.5)(svelte@5.34.7)
       react: 19.1.0
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      react-dom: 19.1.0(react@19.1.0)
+      rxjs: 7.8.2
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
       svelte: 5.34.7
       svelte-preprocess: 6.0.3(svelte@5.34.7)(typescript@5.8.3)
     transitivePeerDependencies:
@@ -995,12 +983,6 @@ snapshots:
     dependencies:
       array-flatten: 3.0.0
       midi-file: 1.2.4
-
-  '@trpc/client@10.45.2(@trpc/server@10.45.2)':
-    dependencies:
-      '@trpc/server': 10.45.2
-
-  '@trpc/server@10.45.2': {}
 
   '@types/estree@1.0.8': {}
 
@@ -1331,37 +1313,33 @@ snapshots:
       note-parser: 2.0.1
       sample-player: 0.5.5
 
-  springboard-cli@0.16.0-svelte-dev3(ioowiynfnghsyik2qbvmjtathq):
+  springboard-cli@0.16.0(@springboardjs/platforms-browser@0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(springboard-server@0.16.0(@springboardjs/data-storage@0.16.0(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(hono@4.8.1)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)):
     dependencies:
-      '@springboardjs/platforms-browser': 0.16.0-svelte-dev2(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
-      '@springboardjs/platforms-node': 0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)
+      '@springboardjs/platforms-browser': 0.16.0(react-router-dom@6.30.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
+      '@springboardjs/platforms-node': 0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)
       commander: 12.1.0
       concurrently: 9.1.2
       esbuild: 0.25.5
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
-      springboard-server: 0.16.0-svelte-dev3(@springboardjs/data-storage@0.16.0-svelte-dev3(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(@trpc/server@10.45.2)(hono@4.8.1)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      springboard-server: 0.16.0(@springboardjs/data-storage@0.16.0(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(hono@4.8.1)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))
       tslib: 2.8.1
       typescript: 5.8.3
 
-  springboard-server@0.16.0-svelte-dev3(@springboardjs/data-storage@0.16.0-svelte-dev3(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(@trpc/server@10.45.2)(hono@4.8.1)(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)):
+  springboard-server@0.16.0(@springboardjs/data-storage@0.16.0(kysely@0.28.2))(@springboardjs/platforms-node@0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2))(hono@4.8.1)(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)):
     dependencies:
       '@hono/node-server': 1.14.4(hono@4.8.1)
       '@hono/node-ws': 1.1.7(@hono/node-server@1.14.4(hono@4.8.1))(hono@4.8.1)
-      '@hono/trpc-server': 0.3.4(@trpc/server@10.45.2)(hono@4.8.1)
-      '@springboardjs/data-storage': 0.16.0-svelte-dev3(kysely@0.28.2)
-      '@springboardjs/platforms-node': 0.16.0-svelte-dev2(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)
+      '@springboardjs/data-storage': 0.16.0(kysely@0.28.2)
+      '@springboardjs/platforms-node': 0.16.0(isomorphic-ws@4.0.1(ws@8.18.2))(springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2))(ws@8.18.2)
       hono: 4.8.1
       json-rpc-2.0: 1.7.0
-      springboard: 0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
+      springboard: 0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2)
     transitivePeerDependencies:
-      - '@trpc/server'
       - bufferutil
       - utf-8-validate
 
-  springboard@0.16.0-svelte-dev3(@trpc/client@10.45.2(@trpc/server@10.45.2))(immer@10.1.1)(json-rpc-2.0@1.7.0)(kysely@0.28.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2):
+  springboard@0.16.0(immer@10.1.1)(json-rpc-2.0@1.7.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rxjs@7.8.2):
     dependencies:
-      '@springboardjs/data-storage': 0.16.0-svelte-dev3(kysely@0.28.2)
-      '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       dexie: 4.0.11
       immer: 10.1.1
       json-rpc-2.0: 1.7.0
@@ -1372,7 +1350,6 @@ snapshots:
       ws: 8.18.2
     transitivePeerDependencies:
       - bufferutil
-      - kysely
       - utf-8-validate
 
   string-width@4.2.3:

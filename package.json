@@ -3,22 +3,26 @@
   "version": "1.0.0",
   "description": "Raise your hands",
   "main": "index.js",
+  "scripts": {
+    "dev": "sb dev src/index.svelte --plugins svelte",
+    "build": "sb build src/index.svelte --plugins svelte",
+    "start": "sb start",
+    "build-with-script": "node build_with_script.mjs"
+  },
   "dependencies": {
-    "@jamtools/core": "0.16.0-svelte-dev3",
-    "@springboardjs/plugin-svelte": "0.16.0-svelte-dev3",
+    "@jamtools/core": "0.16.0",
+    "@springboardjs/platforms-browser": "0.16.0",
+    "@springboardjs/data-storage": "0.16.0",
+    "@springboardjs/platforms-node": "0.16.0",
+    "@springboardjs/plugin-svelte": "0.16.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^6.30.1",
     "react-router-dom": "^6.30.1",
-    "springboard": "0.16.0-svelte-dev3",
-    "springboard-cli": "0.16.0-svelte-dev3",
-    "springboard-server": "^0.16.0-svelte-dev3",
+    "springboard": "0.16.0",
+    "springboard-cli": "0.16.0",
+    "springboard-server": "0.16.0",
     "svelte": "^5.34.7"
-  },
-  "scripts": {
-    "dev": "npm run build -- --watch",
-    "build": "tsx build_with_svelte_plugin.mjs",
-    "start": "sb start"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +32,8 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3"]
   }
 }
